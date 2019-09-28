@@ -191,5 +191,6 @@
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
 
   <include name="snippets/mer-hybris.xml" />
+  <include name="snippets/deps-i9100.xml" />
 
 </manifest>

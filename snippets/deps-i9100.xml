@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- LineageOS Additions -->
+    <project path="external/pigz" name="LineageOS/android_external_pigz" remote="github2" revision="cm-14.1"/>
+    <project path="external/mksh" name="LineageOS/android_external_mksh" remote="github2" revision="cm-14.1"/>
+    <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github2" revision="cm-14.1"/>
+    <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github2" revision="cm-14.1"/>
+    <project path="external/toybox" name="LineageOS/android_external_toybox" remote="github2" revision="cm-14.1"/>
+    <project path="external/libtar" name="LineageOS/android_external_libtar" remote="github2" revision="cm-14.1"/>
+    <project path="system/keymaster" name="LineageOS/android_system_keymaster" remote="github2" revision="cm-14.1"/>
+    <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github2" revision="cm-14.1"/>
+    <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" remote="github2" revision="cm-14.1"/>
+    <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" remote="github2" revision="cm-14.1"/>
+    <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" remote="github2" revision="cm-14.1"/>
+    
+    <!-- AOSP Additions -->
+    <project path="external/libnl" name="platform/external/libnl" remote="aosp"/>
+    <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
+</manifest>
