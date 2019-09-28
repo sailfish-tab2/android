@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remove-project "LineageOS/android_build" />
+    <remove-project "LineageOS/android_bionic" />
+    <remove-project "LineageOS/android_system_core" />
+    <remove-project "LineageOS/android_frameworks_av" />
+    <remove-project "LineageOS/android_frameworks_base" />
+    <remove-project "LineageOS/android_frameworks_native" />
+    <remove-project "LineageOS/android_hardware_libhardware" />
+    
+    <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" remote="github2" revision="master"/>
+    <project name="sailfishos/droidmedia" path="external/droidmedia" remote="github2" revision="master"/>
+    <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" remote="github2" revision="master"/>
+    <project name="mer-hybris/audioflingerglue" path="external/audioflingerglue" remote="github2" revision="master"/>
+    <project groups="pdk" name="sailfish-tab2/android_bionic" path="bionic" remote="github2" revision="hybris-14.1"/>
+    <project name="mer-hybris/android_external_busybox" path="external/busybox" remote="github2" revision="hybris-13.0"/>
+    <project groups="pdk,tradefed" name="sailfish-tab2/android_build" path="build" remote="github2" revision="hybris-14.1">
+        <copyfile dest="Makefile" src="core/root.mk"/>
+    </project>
+    
+    <project groups="pdk" name="sailfish-tab2/android_system_core" path="system/core" remote="github2" revision="hybris-14.1"/>
+    <project groups="pdk" name="sailfish-tab2/android_frameworks_av" path="frameworks/av" remote="github2" revision="hybris-14.1"/>
+    <project groups="pdk" name="sailfish-tab2/android_frameworks_native" path="frameworks/native" remote="github2" revision="hybris-14.1"/>
+    <project groups="pdk" name="sailfish-tab2/android_hardware_libhardware" path="hardware/libhardware" remote="github2" revision="hybris-14.1"/>
+    <project groups="pdk-cw-fs,pdk-fs" name="sailfish-tab2/android_frameworks_base" path="frameworks/base" remote="github2" revision="hybris-14.1"/>
+</manifest>
