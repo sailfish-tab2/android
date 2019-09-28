@@ -10,6 +10,9 @@
 
   <remote  name="github2"
            fetch="https://github.com" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
   
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
