@@ -190,6 +190,4 @@
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
 
-  <include name="snippets/cm.xml" />
-
 </manifest>
