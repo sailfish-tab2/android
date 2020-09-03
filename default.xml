@@ -19,11 +19,19 @@
            sync-j="4" />
 
 <!-- BEGIN LINEAGEOS -->
-  <project path="build" name="LineageOS/android_build" groups="pdk" >
+  <project path="build" name="mer-hybris/android_build" groups="pdk" revision="hybris-13.0">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
+<!-- Hybris repos -->
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master" />
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
+  <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
+  <project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" revision="master" />
+  <project path="external/busybox" name="mer-hybris/android_external_busybox" revision="hybris-13.0" />
+
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" revision="hybris-13.0" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="device/common" name="LineageOS/android_device_common" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" />
@@ -53,11 +61,11 @@
   <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/av" name="mer-hybris/android_frameworks_av" groups="pdk" revision="hybris-13.0" />
+  <project path="frameworks/base" name="mer-hybris/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="hybris-13.0" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" groups="pdk" revision="hybris-13.0" />
   <project path="frameworks/opt/emoji" name="LineageOS/android_frameworks_opt_emoji" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="LineageOS/android_frameworks_rs" groups="pdk" />
   <project path="hardware/akm" name="LineageOS/android_hardware_akm" />
@@ -72,7 +80,7 @@
   <project path="hardware/intel/img/psb_headers" name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="LineageOS/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="mer-hybris/android_hardware_libhardware" groups="pdk" revision="hybris-13.0" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <include name="snippets/hal_cm_all.xml" />
   <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" />
@@ -82,7 +90,7 @@
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
   <project path="libnativehelper" name="LineageOS/android_libnativehelper" groups="pdk" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="mer-hybris/android_system_core" groups="pdk" revision="hybris-13.0" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
