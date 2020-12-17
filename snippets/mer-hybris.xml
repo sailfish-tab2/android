@@ -13,7 +13,7 @@
     <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" remote="github2" revision="master"/>
     <project name="mer-hybris/audioflingerglue" path="external/audioflingerglue" remote="github2" revision="master"/>
     <project groups="pdk" name="sailfish-tab2/bionic" path="bionic" remote="github2" revision="hybris-14.1"/>
-    <project name="mer-hybris/android_external_busybox" path="external/busybox" remote="github2" revision="hybris-13.0"/>
+    <project name="sailfish-tab2/external_busybox" path="external/busybox" remote="github2" revision="hybris-14.1"/>
     <project groups="pdk,tradefed" name="sailfish-tab2/build" path="build" remote="github2" revision="hybris-14.1">
         <copyfile dest="Makefile" src="core/root.mk"/>
     </project>
