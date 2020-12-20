@@ -35,7 +35,7 @@ To initialize your local repository using the LineageOS trees, use a command lik
 
 Then to sync up:
 
-    repo sync -c --force-sync --no-clone-bundle --no-tags
+    repo sync -c --force-sync --no-clone-bundle --no-tags --fetch-submodules
 
 Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
 
