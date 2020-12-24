@@ -18,15 +18,20 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="LineageOS/android_build" groups="pdk,tradefed" >
+  <project path="build" name="mer-hybris/android_build" groups="pdk,tradefed" revision="hybris-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" revision="master"/>
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
+  <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
+  <project path="external/audioflingerglue" name="mer-hybris/audioflingerglue" revision="master" />
 
   <!-- <project path="android" name="LineageOS/android" /> -->
 
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <!-- <project path="art" name="LineageOS/android_art" groups="pdk" /> -->
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="mer-hybris/android_bionic" groups="pdk" revision="hybris-12.1" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <!--
   <project path="cts" name="LineageOS/android_cts" groups="cts,pdk-cw-fs" />
@@ -89,7 +94,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
   <project path="external/bson" name="LineageOS/android_external_bson" />
   -->
-  <project path="external/busybox" name="LineageOS/android_external_busybox" />
+  <project path="external/busybox" name="mer-hybris/android_external_busybox" revision="hybris-aosp-5.1.0_r5" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
   <!--
   <project path="external/cardslib" name="LineageOS/android_external_cardslib" />
@@ -420,8 +425,8 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
   -->
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/av" name="mer-hybris/android_frameworks_av" groups="pdk" revision="hybris-12.1" />
+  <project path="frameworks/base" name="mer-hybris/android_frameworks_base" revision="hybris-12.1" />
   <!--
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
@@ -432,7 +437,7 @@
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
   <project path="frameworks/multidex" name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs" />
   -->
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="mer-hybris/android_frameworks_native" groups="pdk" revision="hybris-12.1" />
   <!--
   <project path="frameworks/opt/bitmap" name="LineageOS/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
@@ -485,7 +490,7 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
   -->
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="mer-hybris/android_hardware_libhardware" groups="pdk" revision="hybris-12.1" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="LineageOS/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="LineageOS/android_hardware_nvidia_tegra124" groups="tegra124" />
