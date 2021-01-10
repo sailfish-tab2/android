@@ -17,7 +17,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="LineageOS/android_build" groups="pdk" >
+  <project path="build" name="sailfish-tab2/build" groups="pdk" revision="hybris-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -25,7 +25,7 @@
 
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="bionic" name="sailfish-tab2/bionic" groups="pdk" revision="hybris-11.0" />
   <project path="bootable/diskinstaller" name="LineageOS/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="LineageOS/android_bootable_recovery-cm" />
@@ -70,7 +70,7 @@
   <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" />
   <project path="external/bsdiff" name="LineageOS/android_external_bsdiff" groups="pdk" />
   <project path="external/bson" name="LineageOS/android_external_bson" />
-  <project path="external/busybox" name="LineageOS/android_external_busybox" />
+  <project path="external/busybox" name="sailfish-tab2/external_busybox" revision="hybris-11.0" />
   <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
   <project path="external/cardslib" name="LineageOS/android_external_cardslib" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -294,14 +294,14 @@
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="LineageOS/android_external_zxing" />
   <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="sailfish-tab2/frameworks_base" revision="hybris-11.0" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" />
   <project path="frameworks/mff" name="LineageOS/android_frameworks_mff" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="sailfish-tab2/frameworks_native" groups="pdk" revision="hybris-11.0" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="LineageOS/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" />
@@ -329,14 +329,14 @@
   <project path="hardware/broadcom/wlan" name="LineageOS/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="LineageOS/android_hardware_cm" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="sailfish-tab2/hardware_libhardware" groups="pdk" revision="hybris-11.0" />
   <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="LineageOS/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="LineageOS/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-caf" name="sailfish-tab2/hardware_qcom_display-caf" groups="caf" revision="hybris-11.0" />
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom" />
@@ -477,7 +477,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk,tools" />
   <project path="sdk" name="LineageOS/android_sdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r4" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="sailfish-tab2/system_core" groups="pdk" revision="hybris-11.0" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
