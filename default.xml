@@ -17,6 +17,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <project name="sailfishos/droidmedia" path="external/droidmedia" revision="master"/>
+  <project name="mer-hybris/hybris-boot" path="hybris/hybris-boot" revision="master"/>
+  <project name="mer-hybris/mer-kernel-check" path="hybris/mer-kernel-check" revision="master"/>
+
   <project path="build" name="sailfish-tab2/build" groups="pdk" revision="hybris-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
