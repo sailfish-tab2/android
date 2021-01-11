@@ -25,8 +25,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="sailfish-tab2/android" />
-
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <!-- <project path="art" name="LineageOS/android_art" /> -->
   <project path="bionic" name="sailfish-tab2/bionic" groups="pdk" revision="hybris-11.0" />
